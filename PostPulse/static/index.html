@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PostPulse</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h1>PostPulse</h1>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Generate Social Media Posts in Seconds For Free</h2>
+    <p>Stay Consistent, Creative, and Productive with PostPulse Free AI Social Media Post Generator.</p>
+    <div class="down-arrow">↓ Get started below</div>
+  </section>
+
+  <!-- Main 3-column layout -->
+  <main class="main-container">
+
+    <!-- Left Sidebar -->
+    <aside class="sidebar expanded">
+      <div class="sidebar-header">
+        <h3>Prompt Templates</h3>
+        <button class="toggle-sidebar">«</button>
+      </div>
+
+      <!-- Button Grid -->
+      <div class="template-grid">
+        <!-- Grid icon/ button to prompts will be injected here -->
+      </div>
+
+<!-- Template Content (Hidden by default, shows after click) -->
+<div class="template-content" style="display: none;">
+  <div class="template-header">
+    <button class="back-button">«</button>
+    <img src="" alt="Template Icon" class="template-icon">
+    <h4 class="template-title">Template Name</h4>
+  </div>
+  <ul class="prompt-list">
+    <!-- Prompts will be injected here -->
+  </ul>
+</div>
+
+
+</aside>
+
+<!-- Middle Column -->
+<section class="middle-panel">
+  <div class="prompt-header">
+     <h3>Your Prompt </h3>
+    <textarea id="userPrompt" placeholder="What you want to post about? For ideas, select a prompt template from the left."></textarea>
+  </div>
+
+  <div class="tone-of-voice">
+    <p>Tone of voice</p>
+    <div class="tone-options">
+      <button class="tone-btn" data-tone="Polite">Polite</button>
+      <button class="tone-btn" data-tone="Witty">Witty</button>
+      <button class="tone-btn" data-tone="Casual">Casual</button>
+      <button class="tone-btn" data-tone="Enthusiastic">Enthusiastic</button>
+      <button class="tone-btn" data-tone="Friendly">Friendly</button>
+      <button class="tone-btn" data-tone="Informational">Informational</button>
+      <button class="tone-btn" data-tone="Funny">Funny</button>
+      <button class="tone-btn" data-tone="Serious">Serious</button>
+      <button class="tone-btn" data-tone="Optimistic">Optimistic</button>
+      <button class="tone-btn" data-tone="Motivational">Motivational</button>
+      <button class="tone-btn" data-tone="Humorous">Humorous</button>
+      <button class="tone-btn" data-tone="Formal">Formal</button>
+      <button class="tone-btn" data-tone="Informal">Informal</button>
+    </div>
+  </div>
+
+  <div class="word-count">
+  <div class="word-count-header">
+    <label for="wordCount">Approximate words</label>
+    <input type="number" value="35" id="wordCount" min="10" max="100">
+  </div>
+  <input type="range" min="10" max="2000" value="35" id="wordRange">
+</div>
+
+
+  <div class="toggles">
+  <label class="switch-label">
+    Generate hashtags
+    <input type="checkbox" id="generateHashtags">
+    <span class="switch"></span>
+  </label>
+  <label class="switch-label">
+    Include emoji
+    <input type="checkbox" id="includeEmoji">
+    <span class="switch"></span>
+  </label>
+</div>
+
+  <div class="post-count">
+  <div class="post-count-header">
+    <label for="postCount">Posts to generate</label>
+    <input type="number" value="3" min="1" max="10" id="postCount">
+  </div>
+</div>
+
+<button id="generate-btn" class="btn">
+  <span class="btn-label">Generate</span>
+  <span class="spinner" aria-hidden="true"></span>
+</button>
+
+</section>
+
+<!-- Right Column -->
+<section class="right-panel">
+  <h3>Results</h3>
+  <div class="results-header">
+    <p id="resultsCount">0 results in the feed</p>
+    <button id="clearResults" class="clear-results-btn">Clear Results</button>
+  </div>
+
+  <div class="results-list">
+
+  </div>
+
+  <button id="mockupPreview" class="mockup-preview-btn"> Preview</button>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 PostPulse. All Rights Reserved</p>
+</footer>
+
+<script src="/static/main.js"></script>
+</body>
+
+</html>
