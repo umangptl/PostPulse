@@ -1,5 +1,0 @@
-Jinja2
-fastapi
-uvicorn
-google-generativeai
-python-dotenv
