@@ -86,8 +86,6 @@ Enjoy! 🎉
 ---
 
 ## 🧩 TODO / Future Improvements
-
-- [ ] Preview button to generated post look like a real social media post in the UI, like a mockup
 - [ ] Heart emoji button to allow the user to add posts to the "favorites list prompt".
 - [ ] Copy to clipboard button for posts
 - [ ] Export generated posts to `.txt` or `.csv`
