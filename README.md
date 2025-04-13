@@ -19,62 +19,19 @@ PostPulse helps you:
 - ✅ Instant social media post ideas for multiple platforms
 
 ---
+## Web UI
+  <img src="https://github.com/umangptl/PostPulse/blob/main/screenshots/hero.png" width="40%" alt="hero-Page">
+  <img src="https://github.com/umangptl/PostPulse/blob/main/screenshots/prompt.png" width="40%" alt="prompt-Page">
+  <img src="https://github.com/umangptl/PostPulse/blob/main/screenshots/result.png" width="40%" alt="result-Page">
+  <img src="https://github.com/umangptl/PostPulse/blob/main/screenshots/slipt%20view.png" width="40%" alt="split-Page">
+  
+### Preview
 
-## 📂 Project Structure
-
-```
-.
-├── main.py              # FastAPI main app
-├── .env                 # Environment variables (API keys)
-├── .gitignore           # Git ignore file
-├── README.md            # Project readme (this file)
-├── static/              # Static frontend files
-│   ├── index.html
-│   ├── style.css
-│   ├── main.js
-│   └── img/             # Icons/images
-└── venv/                # (virtual environment - gitignored)
-```
-
----
-
-## ⚙️ Setup & Run Locally
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/postpulse.git
-cd postpulse
-```
-
-### 2. Create and activate a virtual environment
-```bash
-python3 -m venv venv
-source venv/bin/activate  # On macOS/Linux
-venv\Scripts\activate     # On Windows
-```
-
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Add your Gemini API Key  
-Create a `.env` file in the root and add:
-```
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-### 5. Run the FastAPI server
-```bash
-uvicorn app:app --reload
-```
-
-### 6. Open your browser
-Go to: [http://localhost:8000](http://localhost:8000)
-
-Enjoy! 🎉
-
----
+  <img src="https://github.com/umangptl/PostPulse/blob/main/screenshots/Facebook.png" width="40%" alt="FB-Page">
+  <img src="https://github.com/umangptl/PostPulse/blob/main/screenshots/X%3Atwitter.png" width="40%" alt="X-Page">
+  <img src="https://github.com/umangptl/PostPulse/blob/main/screenshots/Instagram.png" width="40%" alt="Insta-Page">
+  <img src="https://github.com/umangptl/PostPulse/blob/main/screenshots/Thread.png" width="40%" alt="Thread-Page">
+  <img src="https://github.com/umangptl/PostPulse/blob/main/screenshots/LinkedIN.png" width="40%" alt="Linkedin-Page">
 
 ## 🛠️ Tech Stack
 
